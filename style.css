@@ -1,0 +1,65 @@
+html{
+    font-size: 16px;
+}
+
+body{
+    background: url(images/fondo.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2rem;
+}
+#imagen{
+    display: flex;
+    justify-content: center; 
+}
+
+p {
+    display: flex;
+    justify-content: center; 
+}
+
+canvas, input{
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+  }
+
+@media screen and (max-width:1920px){
+    p, input{
+       font-size: 1.5rem;
+    }
+    img{
+        width: 12rem;
+    }
+}
+
+@media screen and (max-width:1280px){
+    p, input{
+       font-size: 2rem;
+    }
+    img{
+        width: 16rem;
+    }
+}
+
+@media screen and (max-width:800px){
+    p, input{
+       font-size: 3rem;
+    }
+    img{
+        width: 24rem;
+    }
+}
+
+@media screen and (max-width:480px){
+    p, input{
+       font-size: 4rem;
+    }
+    img{
+        width: 28rem;
+    }
+}
